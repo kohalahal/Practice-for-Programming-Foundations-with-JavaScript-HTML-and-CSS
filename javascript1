@@ -1,0 +1,18 @@
+// write your code here
+var x = 3;
+var y = 3*x;
+print(y);
+
+function square (x) {
+    return x*x;
+}
+
+y = square(5);
+print(y);
+y = square(x);
+print(y);
+// print(square(2));
+
+var img = new SimpleImage("hilton.jpg");
+print(img);
+print(img.getWidth());

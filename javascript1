@@ -14,5 +14,19 @@ print(y);
 // print(square(2));
 
 var img = new SimpleImage("hilton.jpg");
-print(img);
+// print(img);
 print(img.getWidth());
+
+function three (x, y, z) {
+    return x+y+z;
+}
+
+print (three (1, 2, 3));
+
+//Write a function that adds two strings. Remember that addings strings means concatenating, so “a” + “b” is “ab” and “b” + “a” is “ba”.
+//안안된안된다
+function two(x, y) {
+    return "x" + "y";
+}
+
+print (two (a, b));

@@ -24,3 +24,19 @@ for (var pixel of img.values()) {
 }
 
 print(img);
+
+var dev = new SimpleImage("duke_blue_devil.png")
+print(dev);
+
+for (var pixel of dev.values()) {
+    r = pixel.getRed();
+    g = pixel.getGreen();
+    b = pixel.getBlue();
+    if ( r != 255) {
+        pixel.setRed(255);
+        pixel.setGreen(255);
+        pixel.setBlue(0);
+    }
+}
+
+print(dev);

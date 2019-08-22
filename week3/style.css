@@ -1,1 +1,48 @@
 
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background-color: #dddddd;
+  border: 2px solid #555;
+}
+
+li a {
+  display: block; 
+  color: #32a852;
+  text-decoration: none;
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a:hover {
+  background-color: #23447d;
+  color: white;
+}
+
+div {
+  width: 400pt;
+  padding: 5pt;
+  margin: 10pt;
+}
+
+#div1 {
+  background-color: white;
+  border: 10px solid lightgray;
+  color: gray;
+}

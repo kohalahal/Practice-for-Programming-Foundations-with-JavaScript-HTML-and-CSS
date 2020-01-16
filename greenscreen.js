@@ -23,7 +23,8 @@ for (var pixel of drew.values()) {
     }
     else { 
        
-        result.setPixel(x, y, pixel);}
+        result.setPixel(x, y, pixel);
+    }
 }
 
 print(result);

@@ -3,7 +3,6 @@
 
 var img = new SimpleImage("dinos.png");
 img.setSize(200,150);
-var result = new SimpleImage(200,150);
 print(img);
 
 for (var pixel of img.values()) {
